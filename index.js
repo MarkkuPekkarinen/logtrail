@@ -13,7 +13,7 @@ export default function (kibana) {
       hacks: [
       ]
     },
-    init: function (server, options) {
+    init: function (server) {
       // Add server routes and initalize the plugin here
       serverRoute(server);
     }
